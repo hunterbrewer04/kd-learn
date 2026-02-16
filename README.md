@@ -1,65 +1,32 @@
-## What's in here?
+# KD Learn
 
-- **resources/** — Curated learning links for Python, Git, SSH, and more
-- **claude-toolkit/** — A collection of skills, agents, and hooks for Claude Code (added as a git submodule)
+A collection of resources for learning Python, Git, and AI-assisted development.
 
-## Getting Started
+## Learning Resources
 
-### 1. Install Python
-
-**Mac:**
-```bash
-brew install python
-```
-
-**Windows:**
-
-Download from [python.org](https://www.python.org/downloads/) and run the installer. Make sure to check "Add Python to PATH" during installation.
-
-Verify it's working:
-```bash
-python3 --version
-```
-
-### 2. Install Claude Code
-
-Claude Code is an AI coding assistant that runs in your terminal. It can help you write, understand, and debug code — perfect for learning.
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-> You'll need [Node.js](https://nodejs.org/) installed first. Download the LTS version.
-
-Once installed, run it in any project folder:
-```bash
-claude
-```
-
-### 3. Clone this repo
-
-```bash
-git clone --recurse-submodules https://github.com/hunterbrewer04/kd-learn.git
-cd kd-learn
-```
-
-> The `--recurse-submodules` flag pulls in the claude-toolkit automatically.
-
-## How to use Claude Code to learn
-
-Claude Code is like having a tutor in your terminal. Here are some things you can try:
-
-- **Ask it to explain code:** Paste any Python snippet and ask "what does this do?"
-- **Get help with errors:** When you hit an error, ask Claude to explain what went wrong
-- **Build small projects:** Describe what you want to build and work through it together
-- **Learn concepts:** Ask questions like "what is a for loop?" or "how do lists work in Python?"
-
-The key is to stay curious and experiment. Don't worry about breaking things — that's how you learn.
-
-## Resources
-
-Check out [resources/RESOURCES.md](resources/RESOURCES.md) for a curated list of learning links.
+- [W3Schools Python Tutorial](https://www.w3schools.com/python/) — Beginner-friendly Python lessons with interactive examples
+- [GitHub Skills](https://skills.github.com/) — Hands-on courses for learning Git and GitHub
+- [SSH Academy](https://www.ssh.com/academy/ssh) — Learn about SSH keys and secure connections
 
 ## Claude Toolkit
 
-The [claude-toolkit](https://github.com/hunterbrewer04/claude-toolkit) submodule contains skills, agents, and hooks that extend what Claude Code can do. As you get more comfortable, explore it to see how to customize your Claude Code setup.
+The [claude-toolkit](https://github.com/hunterbrewer04/claude-toolkit) is included as a submodule in this repo. It extends Claude Code with custom components:
+
+### Skills
+- **agent-builder** — Create and structure Claude Code sub-agents
+- **claude-documentation** — Generate standardized docs for components
+- **claude-toolkit** — Manage and sync your toolkit repo
+- **hook-builder** — Build hooks for Claude Code lifecycle events
+- **linear-assistant** — Create and manage Linear issues and projects
+- **skill-builder** — Design and write Claude Code skills
+
+### Sub-Agents
+- **agent-installer** — Install new sub-agents
+- **code-reviewer** — Review code for quality and best practices
+- **frontend-developer** — Build frontend applications across frameworks
+- **fullstack-developer** — End-to-end feature development
+- **performance-engineer** — Identify and fix performance bottlenecks
+- **react-specialist** — Optimize and build React applications
+- **refactoring-specialist** — Safely restructure and clean up code
+- **typescript-pro** — Advanced TypeScript patterns and type safety
+- **ui-designer** — Create intuitive, accessible user interfaces
