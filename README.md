@@ -1,7 +1,3 @@
-# KD Learn
-
-Welcome! This repo is your home base for learning Python and Claude Code. Whether you've never written a line of code or you're just getting started with AI-assisted development, you're in the right place.
-
 ## What's in here?
 
 - **resources/** — Curated learning links for Python, Git, SSH, and more
