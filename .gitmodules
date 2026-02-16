@@ -1,0 +1,3 @@
+[submodule "claude-toolkit"]
+	path = claude-toolkit
+	url = https://github.com/hunterbrewer04/claude-toolkit
