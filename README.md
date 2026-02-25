@@ -7,6 +7,7 @@ A collection of resources for learning Python, Git, and AI-assisted development.
 - [W3Schools Python Tutorial](https://www.w3schools.com/python/) — Beginner-friendly Python lessons with interactive examples
 - [GitHub Skills](https://skills.github.com/) — Hands-on courses for learning Git and GitHub
 - [SSH Academy](https://www.ssh.com/academy/ssh) — Learn about SSH keys and secure connections
+- [Browser IDE](https://www.online-ide.com/) - Online Free IDE to Practice Different Languages
 
 ## Claude Toolkit
 
